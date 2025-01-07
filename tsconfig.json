@@ -3,6 +3,7 @@
 	"extends": ["@epic-web/config/typescript"],
 	"compilerOptions": {
 		"lib": ["dom", "dom.iterable", "esnext"],
+		"types": ["node", "bun-types"],
 		// makes it a bit easier for workshop participants
 		"noUncheckedIndexedAccess": false,
 		"paths": {
